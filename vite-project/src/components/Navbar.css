@@ -1,0 +1,130 @@
+
+.navbar {
+  background-color: #1B1F2A;
+  color: #FFFFFF;
+  padding: 18px 24px;
+}
+
+.navbar-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Manrope', sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-link:hover {
+  color: #E4E7EE;
+}
+
+.cart-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 24px;
+  height: 24px;
+  padding: 0 6px;
+  border-radius: 20px;
+  background-color: #C2410C;
+  color: #FFFFFF;
+  font-size: 12px;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    padding: 16px;
+  }
+
+  .navbar-content {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .nav-links {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
+.nav-auth-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: #C2410C;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav-auth-button:hover {
+  background-color: #9A3412;
+}
+
+
+.theme-button {
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid #5B6170;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.theme-button:hover {
+  background-color: #343947;
+}
+
+
+.theme-button {
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid #5B6170;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.theme-button:hover {
+  background-color: #343947;
+}

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  background-color: #F6F7F9;
+  color: #1B1F2A;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.app {
+  min-height: 100vh;
+  background-color: #F6F7F9;
+  color: #1B1F2A;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.app.dark-mode {
+  background-color: #12151D;
+  color: #F6F7F9;
+}
+
+.dark-mode .products-page h1,
+.dark-mode .product-info h3,
+.dark-mode .wishlist-empty h2 {
+  color: #F6F7F9;
+}
+
+.dark-mode .subtitle,
+.dark-mode .rating,
+.dark-mode .wishlist-empty p {
+  color: #B9C0CE;
+}
+
+.dark-mode .product-card,
+.dark-mode .wishlist-empty {
+  background-color: #1B1F2A;
+  border-color: #343947;
+}
+
+.dark-mode .product-controls input,
+.dark-mode .product-controls select {
+  background-color: #1B1F2A;
+  color: #F6F7F9;
+  border-color: #5B6170;
+}
+
+.dark-mode .product-controls input::placeholder {
+  color: #B9C0CE;
+}
+
+/* Login, signup and profile forms */
+.dark-mode .auth-container,
+.dark-mode .auth-card,
+.dark-mode .profile-container,
+.dark-mode .profile-card {
+  background-color: #1B1F2A;
+  color: #F6F7F9;
+  border-color: #343947;
+}
+
+.dark-mode .auth-container h1,
+.dark-mode .auth-card h1,
+.dark-mode .profile-container h1,
+.dark-mode .profile-card h1 {
+  color: #F6F7F9;
+}
+
+
+.app {
+  min-height: 100vh;
+  background-color: #F6F7F9;
+  color: #1B1F2A;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.app.theme-dark {
+  background-color: #12151C;
+  color: #F6F7F9;
+}
+
+.theme-dark .products-page h1,
+.theme-dark .product-info h3,
+.theme-dark .wishlist-empty h2 {
+  color: #F6F7F9;
+}
+
+.theme-dark .subtitle,
+.theme-dark .rating,
+.theme-dark .results-count {
+  color: #C2C7D0;
+}
+
+.theme-dark .product-card,
+.theme-dark .wishlist-empty {
+  background-color: #1B1F2A;
+  border-color: #343947;
+}
+
+.theme-dark .product-controls input,
+.theme-dark .product-controls select {
+  background-color: #1B1F2A;
+  color: #F6F7F9;
+  border-color: #343947;
+}
+
+.theme-dark .product-controls input::placeholder {
+  color: #C2C7D0;
+}
+
+.theme-dark .wishlist-empty p {
+  color: #C2C7D0;
+}
+
+.theme-dark .message {
+  color: #F6F7F9;
+}
